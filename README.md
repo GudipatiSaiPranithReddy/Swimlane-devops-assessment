@@ -191,6 +191,8 @@ What Was Taken Care Of in This Setup
 
 End-to-End Containerization
 
+Multistage Dockerfile for minimal image size
+
 Infrastructure as Code (IaC)
 
 Automated Bootstrap (Windows)
@@ -220,7 +222,6 @@ One Terraform apply → full environment + workloads.
 
 Environment Consistency
 
-Multistage Dockerfile for minimal image size
 
 Scalability Ready
 
