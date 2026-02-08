@@ -220,6 +220,8 @@ One Terraform apply → full environment + workloads.
 
 Environment Consistency
 
+Multistage Dockerfile for minimal image size
+
 Scalability Ready
 
 High Developer Productivity
