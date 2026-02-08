@@ -125,25 +125,11 @@ resource "kubernetes_deployment" "app" {
     namespace = "swimlane"
   }
 
-  spec {
-    replicas = 2
-
-    selector {
-      match_labels = {
-        app = "swimlane"
-      }
-    }
-
-    template {
-      metadata {
-        labels = {
-          app = "swimlane"
-        }
-      }
-
-      spec {
-        container {
-          name  = "app"
+  <<--------
+  ----------
+  --------
+  -------
+  >>
 
           # Updated Docker Hub image
           image = "<dockerhub-username>/swimlane-app:latest"
