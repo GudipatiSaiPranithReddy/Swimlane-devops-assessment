@@ -214,14 +214,12 @@ VPA for stateful MongoDB
 → aligned with production scaling patterns.
 
 
-
 🚀 Advantages of This Architecture
 
 Reproducible Deployments
 One Terraform apply → full environment + workloads.
 
 Environment Consistency
-
 
 Scalability Ready
 
