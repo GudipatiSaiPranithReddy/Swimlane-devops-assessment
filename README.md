@@ -1,4 +1,17 @@
-## Prerequisites & Setup Guide
+### Application Infra Setup & Deployment
+
+Prerequisite: Terraform installed.
+
+Only 3 steps to be followed for infra and app installation
+
+Step 1 - Cluster Setup: Provisioned Minikube using bootstrap-windows.tf.
+
+Step 2 - Image Build: Built Docker image and updated image in Terraform manifests.
+
+Step 3 - Deployment: Ran Terraform from terraform-k8s to deploy app and infra.
+
+
+### Setup Guide
 
 This project includes Terraform bootstrap automation to install all required Kubernetes tooling on Windows.
 
